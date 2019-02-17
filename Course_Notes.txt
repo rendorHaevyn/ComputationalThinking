@@ -1,0 +1,111 @@
+========== CONTENTS ===========
+== WEEK 1: PILLARS OF COMPUTATIONAL THINKING ==
+== WEEK 2: EXPRESSING AND ANALYSING ALGORITHMS ==
+== WEEK 3: FUNDAMENTAL OPERATIONS OF A MODERN COMPUTER ==
+== WEEK 4: APPLIED COMPUTATIONAL THINING USING PYTHON ==
+
+
+========== NOTES ===========
+== WEEK 1: PILLARS OF COMPUTATIONAL THINKING ==
+1. DECOMPOSITION
+* Breaking down a complex problem or system into smaller, more manageable sub-problems.
+* Think about the inputs, and how to use these inputs
+* Think about sub-tasks to solve the probelm
+* my example:
+  Problem: Physical training for army intake
+  Sub-problems:
+  > Identify the key physical assessment domains
+  > Determine what specific exercises and methods could contribute toward improving performance in those domains
+  > Identify providers sources by which these exercises could be fulfilled
+  > Determine logistical implementation of relevant training
+  > Determine temporal implementation of relevant training
+
+2. PATTERN RECOGNITION
+* Find shared characteristics within or between problems, to share a common solution
+* Recognise points of commonality
+* my example:
+  Problem: Extraction of claim line information from XML feeds
+  Application of pattern recognition:
+  > Identify tags common to all (input) XML files
+  > Identify attributes (dictionaries) common to common tags across all XML files
+  > Identify which features are required to be repeated across discrete claims within each, and all, XML files
+  > Determine a structured functional code set which can be built and leveraged to repeatedly ensure the above elements can be accessed per claim within individual XML files
+
+3. DATA REPRESENTATION & ABSTRACTION
+* Determine the outcomes to optimise / the goal - We need to consider what we are trying to optimise - are the single or multiple objectives? 
+* Identify important versus trivial (non-important) characteristics of the problem
+* Use these attributes to create a representation of what we at trying to solve (ie: draft the solution from the important characteristics)
+* What attributes / data do we need to capture to help quantify / measure success in reaching these objectives?
+* my example:
+  Problem: Optimise aesthetics of my house
+  Application of data representation and abstraction:
+  > Determine the outcomes to optimise (not explicitly stated in the lecture, yet definitely a critical first step), eg: internal aesthetics, external aesthetics, to impress the neighbours, to impress the inhabitants, to impress family & friends, etc
+  > Determine characteristics (attributes) of the problem to quantify, eg: resources required to improve each internal space and external space, weight the incremental improvement associated with each space, determine if different weights apply for each inhabitant / agent requiring impressions, and a host of data across time to implementation / investment / return / logistics / etc...
+  > Determine how to use these data to represent / create metrics that can subsequently be used to feed into a modelling process, principally constructed around optimisation of defined outcomes
+
+4. ALGORITHMS
+* Stepwise instructions to solve a problem
+* The order of the instructions
+* Can be described with prose as a flowchart or with pseudocode
+* Flowchart symbol / action:
+a. Stop or Start / Rounded-edge rectangle
+b. Process / Rectangle
+c. Decision / Diamond
+d. Input or Output / Parallelogram
+e. Next Instruction / Directed Edges (arrows)
+* my example:
+
+
+PEER-GRADED ASSIGNMENT: APPLYING COMPUTATIONAL THINKING IN YOUR LIFE
+Title: 
+The simplification of my life in a 21st century world
+
+Problem: 
+The 21st century is quite unlike any other time period in human kinds' relatively brief existence.  While the modern age offers many conveniences, opportunities and better health for humans, modern civilisation also generates a host of psychological and mental phenomena which create extreme challenges for the modern human.  
+The problem is this: how can I simplify my life to better cope with the variegate mental continuum of the 21st century?
+
+Decomposition into sub-problems:
+1. Identify current stressors and calmatives originating at:
+A: my choice of work, and place of employment
+B: my home and living situation
+C: my friendships and family network
+D: my current habits and routines
+2. Determine what supports exist within the community and across my friend and family base
+3. Investigate historical precedents by conducting a public literature scan
+4. Use the information from sub-problems 1-3 to make changes in my life that will contribute to a better mental management.
+
+Pattern Recognition to solve the problem:
+1. Using a journal to identify stressors and calmatives across the specified domains of existence (work, home, relationships, behaviours)
+2. Create a standardised approach towards starting up a conversation with friends and family to elicit information to support this endeavour (considering how to contextualise and highlight my need for change, as well as to capture / identify their behaviour that might model better mental outcomes)
+3. Develeop a search technique which can be replicated (online, at libraries, etc) to identify supporting literature and community materials
+
+Application of data representation and abstraction:
+[A] What to include
+1. Identify the outcomes to optimise, eg: ability to be at peace with the world as it is / ability to respond to stimuli rather than react / creation of a peaceful or stable environment / exposure to more relaxing rather than agitating stimuli, etc - WHY: to better identify what data to include
+2. Determine what attributes / data do we need to capture to help quantify and measure success in reaching these objective, 2a. Daily habits and practices that improve the mental state, including the ease of implementation and value-add or positive weight of these practices - WHY: to identify what practices / changes to prioritise
+2b. Contact details and expertise of instructors or teachers who can assist with these goals - WHY: to identify who can best assist with these changes
+2c. Attributes of my workplace that are positive and negative - WHY: determine whether I need to change careers or just adjust my workplace setting
+2d. Repeat 2c. for my home, friends and family, and current lifestyle, habits and routines - WHY: to determine what changes to implement, and what things I can leave because they support positive states of mind
+3. Choices in my life that are directly inside of my control - WHY: better determine what I can directly influence in my life
+[B] What to exclude
+1. What people used to do prior to the 20th century - WHY: it is no longer representative of the 21st century
+2. What car or house I should consider buying in the future - WHY: we know that acquisition of objects does not fulfil the achievement and maintenance of happiness
+3. Listing things that I wish were different but cannot control - WHY: there are many things I'd like to change but cannot, so it is simply being at peace with those outside of my control
+
+Applying algorithm to solving this problem (very high-level):
+1. Assess and identify all stressors and calmatives at each identified domain of origin in my life (work, home, friends, habits and routines)
+2. If these different domain reach a certain threshold of contributing to calm in my life, no further action is required - else, they fail, and I will subsequently investigate alternative options to make changes in these domains to improve their influence on my life
+3. Evaluate existing community supports, by following up with friends and family and community groups - if these are currently inadequate, then I need to investigate alternative supports, be them online or interstate or inter-city support groups and resources, and identify how to integrate them into my life
+4. Undertake a literature scan, applying a search algorithm to identify relevant literature, and assess the application of recommended techniques to my life.
+5. Undertake ongoing assessment - be it through journaling or other techniques - to determine whether changes to my environment, thinking and habits have improved my appreciation and mental calm in this modern age.  This will be an iterative process back to step 1, depending on whether identified outcomes are being inadequately, partially or completely fulfilled.
+
+
+== WEEK 2: EXPRESSING AND ANALYSING ALGORITHMS ==
+
+
+
+== WEEK 3: FUNDAMENTAL OPERATIONS OF A MODERN COMPUTER ==
+
+
+
+== WEEK 4: APPLIED COMPUTATIONAL THINING USING PYTHON ==
