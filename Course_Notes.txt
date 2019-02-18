@@ -101,6 +101,13 @@ Applying algorithm to solving this problem (very high-level):
 
 
 == WEEK 2: EXPRESSING AND ANALYSING ALGORITHMS ==
+1. LINEAR SEARCH
+* Computer must undertake binary comparisons
+2. ALGORITHMIC COMPLEXITY
+* Complexity is the number of steps (operations) an algorithm takes as a function of its input size.
+* complexity = f(N input elements)
+* With linear searches, the number of operations (complexity) is linearly related to the number of inputs
+* Complexity is assesed on the worst-case scenario of an how an algorithm functions - this allows us to determine changes in operations with changes in inputs
 
 
 
