@@ -103,12 +103,30 @@ Applying algorithm to solving this problem (very high-level):
 == WEEK 2: EXPRESSING AND ANALYSING ALGORITHMS ==
 1. LINEAR SEARCH
 * Computer must undertake binary comparisons
+
 2. ALGORITHMIC COMPLEXITY
 * Complexity is the number of steps (operations) an algorithm takes as a function of its input size.
 * complexity = f(N input elements)
 * With linear searches, the number of operations (complexity) is linearly related to the number of inputs
 * Complexity is assesed on the worst-case scenario of an how an algorithm functions - this allows us to determine changes in operations with changes in inputs
+* Complexity: Linear (y=x)
 
+3. BINARY SEARCH
+* Whether a sorted list of values contains a target value-add
+* Always compare the value in the middle of the list to the target, eliminate, repeat
+* If we originally had N elements, then the number of operations in the worst case would be log2(N). If we now have four times as many elements, i.e., 4N elements, the number of operations in the worst case would be log2(4N) = log2(4) + log2(N) = 2 + log2(N), meaning the number of operations has increased by two. 
+* Assumes: elements are sorted
+* Complexity: Logarithmic [natural] (y=ln(x))
+
+4. BRUTE FORCE
+* Try all possible solutions
+* Identify which solution is the best
+* Complexity: 
+> Exponential (y=2^x), or
+> Factorial (y=x!)
+
+5. GREEDY ALGORITHMS
+* 
 
 
 == WEEK 3: FUNDAMENTAL OPERATIONS OF A MODERN COMPUTER ==
