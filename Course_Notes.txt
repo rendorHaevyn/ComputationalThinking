@@ -126,7 +126,9 @@ Applying algorithm to solving this problem (very high-level):
 > Factorial (y=x!)
 
 5. GREEDY ALGORITHMS
-* 
+* Choose solutions that are best in the current moment or locally optimal, and iterate
+* Can provide a good solution quickly, even though it's not optimal
+
 
 
 == WEEK 3: FUNDAMENTAL OPERATIONS OF A MODERN COMPUTER ==
