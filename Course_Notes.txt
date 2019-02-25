@@ -126,12 +126,32 @@ Applying algorithm to solving this problem (very high-level):
 > Factorial (y=x!)
 
 5. GREEDY ALGORITHMS
-* Choose solutions that are best in the current moment or locally optimal, and iterate
-* Can provide a good solution quickly, even though it's not optimal
-
+* Choose solutions that are best in the current moment or locally optimal, and iterate to get closest to the goal
+* Can provide a good solution quickly, even though it's not necessarly an optimal solution
 
 
 == WEEK 3: FUNDAMENTAL OPERATIONS OF A MODERN COMPUTER ==
+VON NEUMANN ARCHITECTURE
+The von Neumann architecture consists of three major parts. 
+i.    Memory: used to store the instructions for our programs and also the data that is used by those programs during their execution.
+      > Random Access Memory (RAM) is the time it takes to access any part of memory, and is the same as any other part.
+      > ENIAC days - stored in decimal
+      > Modern days - stored in binary digits or bits, in high or low voltage buffer
+      > 8 bits represent a byte, or 2^8 combinations
+ii.   CPU: responsible for carrying out the instructions. The CPU consists of two parts. 
+      > The control unit which figures out which instruction to run. It performs the following functions, in loop:
+        1. Fetch - read instruction from memory
+        2. Decode - decocde instruction and put input (operands) in correct place
+        3. Execute - perform instruction and put output (results) in the correct place
+        4. Update - set the address of next instruction to execute
+        * The control unit has instruction, and registers, which are temporary memory to hold operands and results of operations
+      > The arithmetic and logic unit (ALU) which contains the hardware for doing math
+        * Used by the control unit to perform mathematical operations
+        * Electronic circuits can add or multiply binary numbers and perform basic logical operations
+iii.  Input / Output
+      > Input devices (ie: keyboard) signals the CPU through an interrupt, to send data in, which the CPU will intercept and make a decision on
+      > Output devices (ie: monitor) receive requests from the CPU that data is available, which they can then fetch
+
 
 
 
