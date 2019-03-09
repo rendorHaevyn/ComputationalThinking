@@ -131,7 +131,7 @@ Applying algorithm to solving this problem (very high-level):
 
 
 == WEEK 3: FUNDAMENTAL OPERATIONS OF A MODERN COMPUTER ==
-VON NEUMANN ARCHITECTURE
+VON NEUMANN ARCHITECTURE DATA
 The von Neumann architecture consists of three major parts. 
 i.    Memory: used to store the instructions for our programs and also the data that is used by those programs during their execution.
       > Random Access Memory (RAM) is the time it takes to access any part of memory, and is the same as any other part.
@@ -152,6 +152,12 @@ iii.  Input / Output
       > Input devices (ie: keyboard) signals the CPU through an interrupt, to send data in, which the CPU will intercept and make a decision on
       > Output devices (ie: monitor) receive requests from the CPU that data is available, which they can then fetch
 
+VON NEUMANN ARCHITECTURE CONTROL STRUCTURES
+* Conditional Execution
+Works by inspecting the result of a previous instruction during the Execute step, and then using that result/output to determine the address of the next instruction to execute, which is then set in the Update step.
+
+PSEUDOCODE
+* 
 
 
 
